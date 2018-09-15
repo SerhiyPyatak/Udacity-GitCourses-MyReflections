@@ -22,9 +22,21 @@ organized? How would branches help?
     master branch without any impact.
     
 How do the diagrams help you visualize the branch structure?
+    A series of commits forms the branch. The tip of branch is a most recent commit.
+    Previous commit called as a parent. The root branch always named master branch.
+    Such structure very useful to display all (or almost all) history of changes in
+    repository.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    The commit will be result of merging two branches together. Because of merging
+    commit has parents in both branches, we have to represent this in the diagram
+    appropriately.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+    The simplicity is a pros of automatic merging in Git. But, in the case of conflict
+    resolving needed. Automatic resolving of conflicts requires sophisticated algorithms 
+    to be applying and may return unpredictable result. Thus, in the case of conflict
+    manual merging is the best way.
+     
