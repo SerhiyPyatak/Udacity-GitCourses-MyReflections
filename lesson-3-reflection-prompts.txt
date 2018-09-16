@@ -8,7 +8,10 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+  The cause is the same as for manual commiting: both commiting and pulling must
+  reflect specifical logical changes in repository. Futhermore, maybe I'm not
+  needed to pull EACH commit one at time. It seems more suitable to do larger piece
+  of work on remote, and then pull whole of commits to local computer if needed.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
