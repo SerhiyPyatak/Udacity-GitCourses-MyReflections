@@ -13,10 +13,17 @@ automatically stay up-to-date with your remote repository?
   needed to pull EACH commit one at time. It seems more suitable to do larger piece
   of work on remote, and then pull whole of commits to local computer if needed.
 
-Describe the differences between forks, clones, and branches.  When would you
+Describe the differences between forks, clones, and branches. When would you
 use one instead of another?
 
-    Fill in your answer here
+  Clone - this is making the one to one copy of repository from GitHub server to local computer, or
+  between two GitHub accounts. Fork - this is cloning the repository from one account to another
+  account on GitHub servers only. Branch - this is specific sequence of commits in the repository,
+  which can be pushed/pulled between local computer and GitHub server one at time.
+  So, when I need to copy a repository to my GitHub account from someone's GitHub account, I using
+  fork. When on my local computer I want to make the same repository as on GitHub exists, I using
+  clone. If I want to experiment with my idea without causing any influence on project's official version,
+  I making a branch.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
