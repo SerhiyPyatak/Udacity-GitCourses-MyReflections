@@ -29,7 +29,8 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
   The offline working ability is the sense of having locally stored recent copy of remote. 
-  We can commit changes locally while travelling etc. From other hand, we can do fast-forward
+  We can commit changes locally while travelling etc. From other hand, we can compare our 
+  own commits with those which were done remotely and resolve conflicts. We can do fast-forward
   merges if we have local copy of remote.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
