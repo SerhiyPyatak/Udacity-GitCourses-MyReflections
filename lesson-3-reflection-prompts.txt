@@ -50,4 +50,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+  When I collaborating with other participants via GitHub, then I making changes in the 
+  project in a separate branch - not in the master directly. This approach allows discussing the
+  changes and making experiments without risk of master branch spoiling. Compare with
+  direct commiting in the maser branch, separate branch supporting and pull requests are
+  more tricky, but it's safely.
